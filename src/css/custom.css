@@ -1,0 +1,70 @@
+/**
+ * DECRYPT: Global CSS & Infima Overrides
+ * Theme: Digital Noir
+ */
+
+/* We are importing a monospace font from Google Fonts for that "hacker" feel.
+  JetBrains Mono is perfect for reading code and math.
+*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;600&display=swap');
+
+:root {
+  /* We define the dark mode colors at the root since we forced dark mode */
+  --ifm-color-primary: #00ff8d; /* Cyber Lime */
+  --ifm-color-primary-dark: #00e67e;
+  --ifm-color-primary-darker: #00d977;
+  --ifm-color-primary-darkest: #00b362;
+  --ifm-color-primary-light: #1aff98;
+  --ifm-color-primary-lighter: #26ff9e;
+  --ifm-color-primary-lightest: #4dffa9;
+
+  /* Backgrounds */
+  --ifm-background-color: #0d1117; /* Deep terminal background */
+  --ifm-background-surface-color: #161b22; /* Slightly lighter for cards/menus */
+  
+  /* Text */
+  --ifm-font-color-base: #c9d1d9; /* Soft gray for high readability */
+  --ifm-heading-color: #ffffff;
+  
+  /* Typography */
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-heading-font-family: 'JetBrains Mono', monospace;
+  --ifm-font-family-monospace: 'JetBrains Mono', monospace;
+  
+  /* Code Blocks */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 141, 0.1);
+}
+
+/* Because we forced dark mode in the config, we don't strictly need this block, 
+   but it's good practice to leave it in case you ever enable the light/dark switch */
+[data-theme='dark'] {
+  --ifm-color-primary: #00ff8d;
+  --ifm-color-primary-dark: #00e67e;
+  --ifm-color-primary-darker: #00d977;
+  --ifm-color-primary-darkest: #00b362;
+  --ifm-color-primary-light: #1aff98;
+  --ifm-color-primary-lighter: #26ff9e;
+  --ifm-color-primary-lightest: #4dffa9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 141, 0.15);
+}
+
+/* --- Custom Utility Classes for Decrypt --- */
+
+/* Add a subtle glow to code blocks to make them pop */
+.prism-code {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the top navigation bar to blend seamlessly into the dark background */
+.navbar {
+  background-color: rgba(13, 17, 23, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer {
+  background-color: #090c10;
+  border-top: 1px solid rgba(0, 255, 141, 0.1);
+}

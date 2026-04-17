@@ -1,0 +1,44 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: #0d1117; /* Matches the hero background */
+}
+
+.featureCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 255, 141, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  border-color: #00ff8d;
+  box-shadow: 0 10px 30px rgba(0, 255, 141, 0.1);
+  background: rgba(0, 255, 141, 0.02);
+}
+
+.featureSvg {
+  height: 120px; /* Reduced size for a sleeker look */
+  width: 120px;
+  margin-bottom: 1.5rem;
+  filter: grayscale(1) brightness(1.5); /* Makes standard SVGs look more "tech" */
+}
+
+.featureTitle {
+  color: #00ff8d;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.featureDescription {
+  color: #8b949e;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

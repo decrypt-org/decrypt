@@ -1,0 +1,62 @@
+/**
+ * Crypto-docs theme: Digital Noir
+ */
+
+.heroBanner {
+  padding: 8rem 0; /* Increased padding for a more spacious feel */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /* Cyber-grid background effect */
+  background-color: #0d1117;
+  background-image: 
+    linear-gradient(rgba(0, 255, 141, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 141, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 2rem;
+  }
+}
+
+.heroTitle {
+  font-family: 'JetBrains Mono', monospace; /* Monospace fits crypto perfectly */
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: -2px;
+  background: linear-gradient(to right, #00ff8d, #00d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+  color: #8b949e;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.25rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Customizing the CTA button to look like a terminal command */
+.cryptoButton {
+  background: transparent !important;
+  border: 2px solid #00ff8d !important;
+  color: #00ff8d !important;
+  font-family: 'JetBrains Mono', monospace;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.cryptoButton:hover {
+  background: #00ff8d !important;
+  color: #0d1117 !important;
+  box-shadow: 0 0 20px rgba(0, 255, 141, 0.4);
+}

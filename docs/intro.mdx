@@ -1,0 +1,67 @@
+---
+id: intro
+title: Introduction
+sidebar_label: Introduction
+slug: /
+---
+
+import Link from '@docusaurus/Link';
+
+# 🔐 Introduction to Cryptography
+
+Welcome to the **discrete-sh** cryptography documentation. This resource is a technical roadmap designed to demystify the mathematics, protocols, and implementation standards that secure our digital existence.
+
+
+
+## What is Cryptography?
+
+In the context of computer science, cryptography is the practice of securing communication through mathematical algorithms. It transforms readable data (**Plaintext**) into an unreadable format (**Ciphertext**), ensuring that only authorized parties can reverse the process.
+
+Modern cryptography is built upon four fundamental pillars:
+
+| Pillar | Purpose |
+| :--- | :--- |
+| **Confidentiality** | Only intended recipients can read the message. |
+| **Integrity** | The message cannot be altered without detection. |
+| **Authentication** | You are certain of who you are talking to. |
+| **Non-repudiation** | A sender cannot deny sending a message later. |
+
+---
+
+## The Philosophy of discrete-sh
+
+Most crypto resources are either purely academic or "black-box" tutorials that don't explain the *why*. This site bridges that gap.
+
+:::info The Golden Rule
+**"Don't Roll Your Own Crypto."** Even if you understand the math, implementation errors (like timing attacks or poor entropy) are the primary cause of breaches. Use these docs to understand the *mechanics*, but use peer-reviewed libraries like **OpenSSL**, **BoringSSL**, or **Libsodium** for production.
+:::
+
+---
+
+## Roadmap to Mastery
+
+We’ve structured these docs to take you from a curious developer to a security-aware engineer.
+
+### 1. Foundations
+Before you can understand RSA or AES, you need the math. We cover **Modular Arithmetic**, **Prime Number Theory**, and **Binary XOR operations**.
+<Link className="button button--secondary" to="/docs/foundations/modular-arithmetic">Explore Foundations_</Link>
+
+### 2. Symmetric Encryption
+Learn how modern systems move massive amounts of data securely using a single shared secret. 
+* **Algorithms:** AES-GCM, ChaCha20.
+* **Concepts:** Block vs. Stream ciphers.
+
+### 3. Asymmetric (Public Key) Infrastructure
+The "Magic" of the internet. Learn how two people can establish a secure connection without ever meeting.
+* **Algorithms:** RSA, Diffie-Hellman, Elliptic Curve (Ed25519).
+
+### 4. Zero-Knowledge Proofs (ZKP)
+The cutting edge. How to prove you know a secret without actually revealing what the secret is. Essential for modern privacy and Web3.
+
+---
+
+## Contribution
+
+This is an open-source project. If you find a mathematical error or a vulnerable code snippet, please open a PR on our GitHub.
+
+> "Cryptography is the science of secret writing, but its modern application is the art of digital trust."
