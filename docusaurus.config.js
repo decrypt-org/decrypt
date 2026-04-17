@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'discrete-sh',
-                href: 'https://mayendradwika.github.io', 
+                href: 'https://mayendradwika.github.io/discrete-sh/', 
               },
             ],
           },
