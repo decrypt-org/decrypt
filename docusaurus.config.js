@@ -83,10 +83,10 @@ const config = {
                 label: 'Introduction',
                 to: '/docs/intro',
               },
-              {
-                label: 'Foundational Math',
-                to: '/docs/foundations/modular-arithmetic', // We will build this next
-              },
+              //{
+                //label: 'Foundational Math',
+                //to: '/docs/foundations/modular-arithmetic', // We will build this next
+              //},
             ],
           },
           {
