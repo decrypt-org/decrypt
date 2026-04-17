@@ -99,11 +99,15 @@ const config = {
             ],
           },
           {
-            title: 'Repository',
+            title: 'Social',
             items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/mayendradwika/decrypt',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/company/decryptx',
               },
             ],
           },
