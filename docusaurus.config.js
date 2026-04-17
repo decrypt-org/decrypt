@@ -77,7 +77,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Architecture',
+            title: 'Docs',
             items: [
               {
                 label: 'Introduction',
