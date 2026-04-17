@@ -108,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mayendra Dwika. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} decrypt. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
