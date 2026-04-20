@@ -45,37 +45,43 @@ To contribute to the documentation or run the site locally, follow these steps.
    cd decrypt
 Install the dependencies:
 
-Bash
-npm install
-Running the Site
+    ```Bash
+    npm install
+    ```
+
+### Running the Site
 To start the local development server (which features hot-reloading):
 
-Bash
-npm start
+    ```Bash
+    npm start
+    ```
+
 The site will be available at http://localhost:3000.
 
 (Note: If the site throws a sub-path error, ensure the url in docusaurus.config.js does not contain any trailing slashes or subdirectories).
 
-Building for Production
+## Building for Production
 To generate the static HTML files into the build/ directory:
 
-Bash
-npm run build
-⚙️ Deployment Pipeline
+    ```Bash
+    npm run build
+    ```
+
+## ⚙️ Deployment Pipeline
 This repository is configured with Continuous Integration via GitHub Actions.
 Any commits pushed to the main branch will automatically trigger the .github/workflows/deploy.yml workflow.
 
 The workflow will:
 
-Provision a Node.js 20 environment.
+1. Provision a Node.js 20 environment.
 
-Build the Docusaurus static files.
+2. Build the Docusaurus static files.
 
-Force-push the build/ directory to the gh-pages branch.
+3. Force-push the build/ directory to the gh-pages branch.
 
 Live Site: Hosted automatically on GitHub Pages.
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome pull requests! If you find a mathematical error, a vulnerable code snippet, or a typo, please open an issue or submit a PR.
 
 1. Fork the Project
