@@ -43,18 +43,15 @@ To contribute to the documentation or run the site locally, follow these steps.
    ```bash
    git clone [https://github.com/discrete-org/decrypt.git](https://github.com/discrete-org/decrypt.git)
    cd decrypt
-Install the dependencies:
 
-    ```Bash
+Install the dependencies:
+    ```bash
     npm install
-    ```
 
 ### Running the Site
 To start the local development server (which features hot-reloading):
-
-    ```Bash
+    ```bash
     npm start
-    ```
 
 The site will be available at http://localhost:3000.
 
@@ -62,10 +59,8 @@ The site will be available at http://localhost:3000.
 
 ## Building for Production
 To generate the static HTML files into the build/ directory:
-
-    ```Bash
+    ```bash
     npm run build
-    ```
 
 ## ⚙️ Deployment Pipeline
 This repository is configured with Continuous Integration via GitHub Actions.
