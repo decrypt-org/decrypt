@@ -12,9 +12,9 @@ const config = {
   },
 
   // 🚀 GitHub Pages Deployment Config
-  url: 'https://mayendradwika.github.io',
+  url: 'https://github.com/decrypt-org.io',
   baseUrl: '/decrypt/', // IMPORTANT: Change this if your actual repository name is different
-  organizationName: 'mayendradwika', 
+  organizationName: 'decrypt-org', 
   projectName: 'decrypt', 
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -34,7 +34,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Maps the "Edit this page" links directly to your repo
-          editUrl: 'https://github.com/mayendradwika/decrypt/tree/main/',
+          editUrl: 'https://github.com/decrypt-org/decrypt/tree/main/',
         },
         blog: false, // Disabled to focus purely on the docs architecture
         theme: {
