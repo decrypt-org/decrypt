@@ -68,3 +68,8 @@
   background-color: #090c10;
   border-top: 1px solid rgba(0, 255, 141, 0.1);
 }
+
+/* Make the sidebar text slightly bolder */
+.menu__link {
+  font-weight: 600;
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Asymmetric Infrastructure",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Infrastruktur kunci publik (PKI) yang memungkinkan pertukaran kunci aman."
+  }
+}

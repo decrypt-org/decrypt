@@ -1,0 +1,8 @@
+{
+  "label": "Foundations",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Dasar-dasar matematika yang penting untuk memahami algoritma kriptografi modern."
+  }
+}

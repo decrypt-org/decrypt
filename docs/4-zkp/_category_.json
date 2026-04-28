@@ -1,0 +1,8 @@
+{
+  "label": "Zero-Knowledge Proofs",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Bagaimana membuktikan bahwa Anda mengetahui rahasia tanpa mengungkapkan rahasia itu sendiri."
+  }
+}
