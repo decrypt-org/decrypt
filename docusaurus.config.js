@@ -12,7 +12,7 @@ const config = {
   },
 
   // 🚀 GitHub Pages Deployment Config
-  url: 'https://github.com/decrypt-org.io',
+  url: 'https://decrypt-org.github.io',
   baseUrl: '/decrypt/', // IMPORTANT: Change this if your actual repository name is different
   organizationName: 'decrypt-org', 
   projectName: 'decrypt', 
@@ -67,7 +67,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/mayendradwika/decrypt',
+            href: 'https://github.com/decrypt-org/decrypt',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: '/docs',
               },
               //{
                 //label: 'Foundational Math',
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'discrete-sh',
-                href: 'https://mayendradwika.github.io/discrete-sh/', 
+                href: 'https://discrete-org.github.io/discrete-sh/', 
               },
             ],
           },
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/mayendradwika/decrypt',
+                href: 'https://github.com/decrypt-org/decrypt',
               },
               {
                 label: 'Linkedin',
