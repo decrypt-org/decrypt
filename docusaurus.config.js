@@ -96,6 +96,10 @@ const config = {
                 label: 'discrete-sh',
                 href: 'https://discrete-org.github.io/discrete-sh/', 
               },
+              {
+                label: 'Team',
+                to: '/team',
+              },
             ],
           },
           {
