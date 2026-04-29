@@ -113,6 +113,10 @@ const config = {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/decryptx',
               },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/UGhU2yMYB',
+              },
             ],
           },
         ],
