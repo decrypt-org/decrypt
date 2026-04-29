@@ -5,4 +5,4 @@ sidebar_position: 5
 
 # Prime Number Theory
 
-Teori bilangan prima adalah tulang punggung dari banyak algoritma kriptografi asimetris modern, termasuk RSA.
+Prime number theory is the backbone of many modern asymmetric cryptographic algorithms, including RSA.

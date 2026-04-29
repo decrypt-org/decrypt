@@ -4,4 +4,4 @@ title: Diffie-Hellman
 
 # Diffie-Hellman Key Exchange
 
-Diffie-Hellman (DH) adalah protokol yang memungkinkan dua pihak yang tidak saling kenal untuk menyepakati sebuah rahasia bersama melalui saluran komunikasi yang tidak aman.
+Diffie-Hellman (DH) is a protocol that allows two mutually unknown parties to establish a shared secret over an insecure communication channel.

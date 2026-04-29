@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Infrastruktur kunci publik (PKI) yang memungkinkan pertukaran kunci aman."
+    "description": "Public Key Infrastructure (PKI) that enables secure key exchange."
   }
 }

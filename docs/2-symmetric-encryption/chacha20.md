@@ -4,4 +4,4 @@ title: ChaCha20
 
 # ChaCha20 & Poly1305
 
-ChaCha20 adalah stream cipher berkinerja tinggi yang dirancang oleh Daniel J. Bernstein. Ia sering digabungkan dengan Poly1305 untuk autentikasi (AEAD).
+ChaCha20 is a high-performance stream cipher designed by Daniel J. Bernstein. It is often combined with Poly1305 for authentication (AEAD).

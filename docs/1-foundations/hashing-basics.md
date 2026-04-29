@@ -3,6 +3,6 @@ title: Hashing Basics
 sidebar_position: 4
 ---
 
-# Pengenalan Fungsi Hash
+# Introduction to Hash Functions
 
-Fungsi hash adalah fungsi matematis yang mengubah data dengan panjang sembarang menjadi nilai hash dengan panjang tetap (fixed size).
+A hash function is a mathematical function that converts data of arbitrary length into a fixed-size hash value.

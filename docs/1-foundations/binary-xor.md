@@ -5,4 +5,4 @@ sidebar_position: 3
 
 # Binary XOR Operations
 
-XOR (Exclusive OR) adalah operasi logika dasar yang banyak digunakan dalam kriptografi, dari One-Time Pad hingga block cipher modern.
+XOR (Exclusive OR) is a basic logical operation widely used in cryptography, from the One-Time Pad to modern block ciphers.

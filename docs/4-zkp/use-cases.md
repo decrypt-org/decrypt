@@ -2,6 +2,6 @@
 title: Real-World Use Cases
 ---
 
-# Implementasi ZKP di Dunia Nyata
+# Real-World Implementations of ZKP
 
-Dari privasi blockchain hingga sistem otentikasi identitas yang aman, ZKP memiliki potensi revolusioner dalam mengubah cara kita menangani data sensitif.
+From blockchain privacy to secure identity authentication systems, ZKP has revolutionary potential in changing how we handle sensitive data.
